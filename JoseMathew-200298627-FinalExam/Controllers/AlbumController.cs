@@ -17,6 +17,7 @@ namespace JoseMathew_200298627_FinalExam.Controllers
         MVCMusicStoreContext storeDB = new MVCMusicStoreContext();
         // GET: Genre
         public ActionResult Index()
+            //ghkhkh
         {
             List<Album> genres = storeDB.Albums.ToList();
 
